@@ -1,0 +1,47 @@
+html{
+    background-color:#00F5CC;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 25px;
+    flex: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #A83000;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+}
+.option button{
+    padding: 20px;
+    font-size: larger;
+    margin: 20px;
+    width: 200px;
+}
+.scores{
+    display: flex;
+    flex-direction: row;
+    size: 200px;
+}
+.scores div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding-top: 20px;
+    size: 200px;
+    margin: 20px;
+    background-color: aliceblue;
+}
